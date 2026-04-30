@@ -89,6 +89,8 @@ return(
 style={styles.input}
 placeholder="Patient Name"
 placeholderTextColor="#4b5563"
+selectionColor="#2563eb"
+cursorColor="#2563eb"
 value={name}
 onChangeText={setName}
 />
@@ -97,6 +99,8 @@ onChangeText={setName}
 style={styles.input}
 placeholder="Phone Number"
 placeholderTextColor="#4b5563"
+selectionColor="#2563eb"
+cursorColor="#2563eb"
 value={phone}
 onChangeText={setPhone}
 />
@@ -105,6 +109,8 @@ onChangeText={setPhone}
 style={styles.input}
 placeholder="Email"
 placeholderTextColor="#4b5563"
+selectionColor="#2563eb"
+cursorColor="#2563eb"
 value={email}
 onChangeText={setEmail}
 />
@@ -113,6 +119,8 @@ onChangeText={setEmail}
 style={styles.input}
 placeholder="Gender"
 placeholderTextColor="#4b5563"
+selectionColor="#2563eb"
+cursorColor="#2563eb"
 value={gender}
 onChangeText={setGender}
 />

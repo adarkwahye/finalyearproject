@@ -155,6 +155,8 @@ return(
 style={styles.input}
 placeholder="Symptoms"
 placeholderTextColor="#4b5563"
+selectionColor="#2563eb"
+cursorColor="#2563eb"
 value={symptoms}
 onChangeText={setSymptoms}
 />
@@ -163,6 +165,8 @@ onChangeText={setSymptoms}
 style={styles.input}
 placeholder="Diagnosis"
 placeholderTextColor="#4b5563"
+selectionColor="#2563eb"
+cursorColor="#2563eb"
 value={diagnosis}
 onChangeText={setDiagnosis}
 />
@@ -173,6 +177,8 @@ onChangeText={setDiagnosis}
 style={styles.input}
 placeholder="Drug Name"
 placeholderTextColor="#4b5563"
+selectionColor="#2563eb"
+cursorColor="#2563eb"
 value={drug}
 onChangeText={setDrug}
 />
@@ -181,6 +187,8 @@ onChangeText={setDrug}
 style={styles.input}
 placeholder="Dosage (e.g. 3 times daily)"
 placeholderTextColor="#4b5563"
+selectionColor="#2563eb"
+cursorColor="#2563eb"
 value={dosage}
 onChangeText={setDosage}
 />
@@ -189,6 +197,8 @@ onChangeText={setDosage}
 style={styles.input}
 placeholder="Duration (days e.g. 5)"
 placeholderTextColor="#4b5563"
+selectionColor="#2563eb"
+cursorColor="#2563eb"
 value={duration}
 onChangeText={setDuration}
 keyboardType="numeric"
@@ -198,6 +208,8 @@ keyboardType="numeric"
 style={styles.input}
 placeholder="Doctor Note"
 placeholderTextColor="#4b5563"
+selectionColor="#2563eb"
+cursorColor="#2563eb"
 value={note}
 onChangeText={setNote}
 />

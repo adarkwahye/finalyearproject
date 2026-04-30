@@ -91,6 +91,8 @@ export default function ConsultationHistoryScreen() {
         style={styles.search}
         placeholder="Search by name or token..."
         placeholderTextColor="#4b5563"
+        selectionColor="#2563eb"
+        cursorColor="#2563eb"
         value={search}
         onChangeText={setSearch}
       />

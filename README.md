@@ -50,11 +50,11 @@ The marketing strategy document is also available as:
 
 The Android APK release is available here:
 
-`release/MediQueue-v1.0.0.apk`
+`release/MediQueue-v1.0.1.apk`
 
 Direct download link:
 
-https://github.com/adarkwahye/finalyearproject/raw/main/release/MediQueue-v1.0.0.apk
+https://github.com/adarkwahye/finalyearproject/raw/main/release/MediQueue-v1.0.1.apk
 
 Android may ask users to allow installation from the browser or file manager because this app is distributed outside Google Play Store.
 

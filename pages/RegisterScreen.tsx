@@ -43,6 +43,8 @@ return (
 style={styles.input}
 placeholder="Full Name"
 placeholderTextColor="#4b5563"
+selectionColor="#2563eb"
+cursorColor="#2563eb"
 value={name}
 onChangeText={setName}
 />
@@ -51,6 +53,8 @@ onChangeText={setName}
 style={styles.input}
 placeholder="Email"
 placeholderTextColor="#4b5563"
+selectionColor="#2563eb"
+cursorColor="#2563eb"
 value={email}
 onChangeText={setEmail}
 />
@@ -59,6 +63,8 @@ onChangeText={setEmail}
 style={styles.input}
 placeholder="Password"
 placeholderTextColor="#4b5563"
+selectionColor="#2563eb"
+cursorColor="#2563eb"
 secureTextEntry
 value={password}
 onChangeText={setPassword}
