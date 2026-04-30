@@ -46,6 +46,18 @@ The marketing strategy document is also available as:
 
 `MARKETING_STRATEGY.md`
 
+## Download Android App
+
+The Android APK release is available here:
+
+`release/MediQueue-v1.0.0.apk`
+
+Direct download link:
+
+https://github.com/adarkwahye/finalyearproject/raw/main/release/MediQueue-v1.0.0.apk
+
+Android may ask users to allow installation from the browser or file manager because this app is distributed outside Google Play Store.
+
 ## Getting Started
 
 Install dependencies:
