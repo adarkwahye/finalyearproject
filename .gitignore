@@ -29,6 +29,7 @@ build/
 .gradle
 .gradle-run/
 .gradle-run-mapped/
+.gradle-release-cache/
 local.properties
 *.iml
 *.hprof
