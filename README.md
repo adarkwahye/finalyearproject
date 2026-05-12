@@ -84,4 +84,4 @@ GitHub repository:
 
 https://github.com/adarkwahye/finalyearproject
 
-Copyrigth - MediQueue 2026
+Copyright - MediQueue 2026
