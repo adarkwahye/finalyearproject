@@ -42,6 +42,10 @@ The project documentation is available in the repository under:
 
 `docs/Clinic Management System.docx`
 
+A full defense-ready Markdown documentation file is also available under:
+
+`docs/MediQueue_Project_Documentation.md`
+
 The marketing strategy document is also available as:
 
 `MARKETING_STRATEGY.md`

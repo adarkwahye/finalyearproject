@@ -15,7 +15,7 @@ class NotificationService {
     });
   }
 
-  // Request permission (important for iOS + Android 13+)
+  // Request permission for Android 13+
   async requestPermission() {
     await notifee.requestPermission();
   }

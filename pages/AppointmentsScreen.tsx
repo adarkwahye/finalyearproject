@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from "react";
-import { View, Text, TextInput, TouchableOpacity, StyleSheet, FlatList, Alert, ActivityIndicator, Platform } from "react-native";
+import { View, Text, TextInput, TouchableOpacity, StyleSheet, FlatList, Alert, ActivityIndicator } from "react-native";
 import DateTimePicker from '@react-native-community/datetimepicker';
 import { ref, push, onValue, get } from "@react-native-firebase/database";
 import { db, auth } from "../config/firebase";
@@ -86,7 +86,7 @@ export default function AppointmentsScreen() {
 
 	// Date picker handler
 	const onDateValueChange = (_event: any, selectedDate: Date) => {
-		setShowDatePicker(Platform.OS === 'ios');
+		setShowDatePicker(false);
 		const yyyy = selectedDate.getFullYear();
 		const mm = String(selectedDate.getMonth() + 1).padStart(2, '0');
 		const dd = String(selectedDate.getDate()).padStart(2, '0');
@@ -95,7 +95,7 @@ export default function AppointmentsScreen() {
 
 	// Time picker handler
 	const onTimeValueChange = (_event: any, selectedTime: Date) => {
-		setShowTimePicker(Platform.OS === 'ios');
+		setShowTimePicker(false);
 		const hh = String(selectedTime.getHours()).padStart(2, '0');
 		const min = String(selectedTime.getMinutes()).padStart(2, '0');
 		setTime(`${hh}:${min}`);
