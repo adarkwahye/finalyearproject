@@ -36,19 +36,7 @@ The purpose of MediQueue is to reduce long waiting times in clinics and improve 
 - React Navigation
 - Notifee for notifications
 
-## Project Documentation
 
-The project documentation is available in the repository under:
-
-`docs/Clinic Management System.docx`
-
-A full defense-ready Markdown documentation file is also available under:
-
-`docs/MediQueue_Project_Documentation.md`
-
-The marketing strategy document is also available as:
-
-`MARKETING_STRATEGY.md`
 
 ## Download Android App
 
